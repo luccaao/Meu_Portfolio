@@ -86,8 +86,13 @@
         <div class="contato__conteudo">
             <h1>Gostou do Portfolio ?</h1>
             <p>Me mande um email !!</p>
-            <input class="input__contato" type="text" >
-            <input class="contato__submit" type="submit"></input>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="1058d33b-ad24-446a-8d7e-b10f32354acd">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+                <input placeholder="example@email.com" class="input__contato" type="email" >
+                <textarea name="message" id="textAreaMensagem" placeholder="Mensagem.." required maxlength="100"></textarea>
+                <input class="contato__submit" type="submit"></input>
+            </form>
         </div>
     </section>
 

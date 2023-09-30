@@ -45,6 +45,13 @@
     
 }
 
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .item__projetos:hover {
     transform: scale(1.1);
 }
