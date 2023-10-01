@@ -9,12 +9,12 @@
 * {
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
 }
 
 
 
 body {
+    overflow-x: hidden;
     font-family: 'Poppins';
     background: white;
 }
@@ -28,6 +28,54 @@ body {
     width: 100%;
     display: flex;
     background: #4C3D3D;
+    
+}
+
+.dropdown li {
+    display: block;
+    background-color: #4C3D3D;
+    margin-bottom: 0.5rem;
+    transform: none;
+    
+    
+}
+
+.dropdown {
+    transform:translateY(0);
+    position: absolute;
+    background: #4C3D3D;
+    padding: 10px;
+    
+    z-index: 999;
+    display: none;
+    border-bottom: none;
+
+    
+    
+    
+}
+
+.dropdown li a:hover {
+    background: #3a3131;
+    
+    width: 100%;
+    border-bottom: none;
+    transform:translateY(0);
+    
+    
+    
+}
+
+.dropdown_teste:hover {
+    background: #3a3131;
+    
+}
+
+li:hover ul.dropdown {
+    display: block;
+    border-bottom: none;
+    transform:translateY(0);
+    
     
 }
 
@@ -75,9 +123,13 @@ body {
     
 }
 
+.nav__item{
+    width: 100%;
+}
+
 .nav__item:hover {
     transition: 0.1s;
-    transform: translateY(-2px);
+    /* transform: translateY(-2px); */
 }
 
 .pesquisa:focus {
