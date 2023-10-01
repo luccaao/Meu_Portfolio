@@ -304,6 +304,10 @@ textarea{
     height: 100px;
 }
 
+.teste {
+    color: green;
+}
+
 .footer {
     text-align: center;
     background-color: black;
