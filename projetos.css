@@ -78,3 +78,31 @@ h2 {
     margin-top: 3rem;
     box-shadow: 20px 20px    #4C3D3D;
  } */
+
+ @media screen and (max-width:640px) {
+    .titulo__projetos {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .conteudo__projetos {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    
+
+    .imagem__projetos {
+        width: 90%;
+    }
+    
+ }

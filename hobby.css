@@ -45,3 +45,43 @@ video {
     color: #4C3D3D;
 }
 
+@media screen  and (max-width:640px){
+        .hobby__container {
+            
+            display: flex;
+            flex-direction: column;
+        }
+
+        video {
+            display: none;
+        }
+
+        .titulo__conteudo img {
+           margin-bottom: 2rem;
+            width: 100%;
+        }
+
+        .hobby__conteudo {
+            padding: 0;
+            margin: 0;
+            width: 80%;
+        }
+
+        .hobby__container-2 {
+            margin-top: 0.2rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .h1__1 {
+            font-size: 2rem;
+        }
+
+        .p__2 {
+            text-align: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+        }
+}
+
